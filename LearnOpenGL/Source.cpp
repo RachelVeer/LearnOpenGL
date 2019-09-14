@@ -77,7 +77,7 @@ int main()
 
 	// build and compile our shader zprogram
 	// ------------------------------------
-	Shader lightingShader("shader.vs", "shader.fs");
+	Shader modelShader("model_shader.vs", "model_shader.fs");
 	Shader lampShader("lamp.vs", "lamp.fs");
 
 	// load models
@@ -102,23 +102,23 @@ int main()
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 		// be sure to activate shader when setting uniforms/drawing objects
-		lightingShader.use();
-		lightingShader.setVec3("viewPos", camera.Position);
-		//lightingShader.setFloat("material.shininess", 32.0f);
+		modelShader.use();
+		modelShader.setVec3("viewPos", camera.Position);
+		//modelShader.setFloat("material.shininess", 32.0f);
 
 		// view/projection transformations
 		glm::mat4 projection = glm::perspective(glm::radians(camera.Zoom), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 100.0f);
 		glm::mat4 view = camera.GetViewMatrix();
-		lightingShader.setMat4("projection", projection);
-		lightingShader.setMat4("view", view);
+		modelShader.setMat4("projection", projection);
+		modelShader.setMat4("view", view);
 
 
 		// render containers
 		glm::mat4 model = glm::mat4(1.0f);
 		model = glm::translate(model, glm::vec3(0.0f, -1.75f, 0.0f)); // translate it down
 		model = glm::scale(model, glm::vec3(0.2f, 0.2f, 0.2f)); // scaled down for this scene
-		lightingShader.setMat4("model", model);
-		ourModel.Draw(lightingShader);
+		modelShader.setMat4("model", model);
+		ourModel.Draw(modelShader);
 
 
 		// also draw the lamp object

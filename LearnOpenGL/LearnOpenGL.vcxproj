@@ -149,8 +149,8 @@
   <ItemGroup>
     <None Include="lamp.fs" />
     <None Include="lamp.vs" />
-    <None Include="shader.fs" />
-    <None Include="shader.vs" />
+    <None Include="model_shader.fs" />
+    <None Include="model_shader.vs" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="camera.h" />
