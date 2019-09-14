@@ -81,7 +81,8 @@ int main()
 	Shader lampShader("lamp.vs", "lamp.fs");
 
 	// load models
-	Model ourModel("resources/objects/nanosuit/nanosuit.obj");
+	//Model ourModel("resources/objects/nanosuit/nanosuit.obj");
+	Model ourModel("resources/objects/diablo/98-Diablo_lowpoly.obj");
 
 	// render loop
 	// -----------
@@ -98,7 +99,7 @@ int main()
 
 		// render
 		// ------
-		glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
+		glClearColor(0.2f, 0.2f, 0.2f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 		// be sure to activate shader when setting uniforms/drawing objects
