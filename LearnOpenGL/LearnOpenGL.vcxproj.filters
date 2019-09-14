@@ -28,6 +28,8 @@
   <ItemGroup>
     <None Include="shader.fs" />
     <None Include="shader.vs" />
+    <None Include="lamp.vs" />
+    <None Include="lamp.fs" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shader.h">
