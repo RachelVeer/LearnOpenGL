@@ -17,8 +17,8 @@ void scroll_callback(GLFWwindow* window, double xoffset, double yoffset);
 void processInput(GLFWwindow* window);
 
 // settings
-const unsigned int SCR_WIDTH = 1600;
-const unsigned int SCR_HEIGHT = 1200;
+const unsigned int SCR_WIDTH = 1024;
+const unsigned int SCR_HEIGHT = 768;
 
 // camera
 Camera camera(glm::vec3(0.0f, 0.0f, 3.0f));
@@ -116,7 +116,7 @@ int main()
 
 		// render containers
 		glm::mat4 model = glm::mat4(1.0f);
-		model = glm::translate(model, glm::vec3(0.0f, -1.75f, 0.0f)); // translate it down
+		model = glm::translate(model, glm::vec3(0.0f, -0.20f, 0.0f)); // translate it down
 		model = glm::scale(model, glm::vec3(0.2f, 0.2f, 0.2f)); // scaled down for this scene
 		modelShader.setMat4("model", model);
 		ourModel.Draw(modelShader);
