@@ -147,13 +147,18 @@
     <ClCompile Include="stb_image.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="cubemaps.fs" />
+    <None Include="cubemaps.vs" />
     <None Include="lamp.fs" />
     <None Include="lamp.vs" />
     <None Include="model_shader.fs" />
     <None Include="model_shader.vs" />
+    <None Include="skybox.fs" />
+    <None Include="skybox.vs" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="camera.h" />
+    <ClInclude Include="filesystem.h" />
     <ClInclude Include="mesh.h" />
     <ClInclude Include="model.h" />
     <ClInclude Include="shader.h" />
