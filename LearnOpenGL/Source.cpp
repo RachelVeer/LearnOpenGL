@@ -42,6 +42,7 @@ int main()
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
+	glfwWindowHint(GLFW_SAMPLES, 4);
 
 #ifdef __APPLE__
 	glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE); // uncomment this statement to fix compilation on OS X
@@ -74,6 +75,7 @@ int main()
 
 	// configure global opengl state
 	// -----------------------------
+	glEnable(GL_MULTISAMPLE);
 	glEnable(GL_DEPTH_TEST);
 
 	// build and compile shaders
@@ -86,7 +88,7 @@ int main()
 	Model planet(FileSystem::getPath("resources/objects/planet/planet.obj"));
 
 	// generate a large list of semi-random model transformation matices
-	unsigned int amount = 100000;
+	unsigned int amount = 50000;
 	glm::mat4* modelMatrices;
 	modelMatrices = new glm::mat4[amount];
 	srand(glfwGetTime()); // Initialize random seed
