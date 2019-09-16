@@ -147,12 +147,16 @@
     <ClCompile Include="stb_image.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="asteroids.fs" />
+    <None Include="asteroids.vs" />
     <None Include="cubemaps.fs" />
     <None Include="cubemaps.vs" />
     <None Include="lamp.fs" />
     <None Include="lamp.vs" />
     <None Include="model_shader.fs" />
     <None Include="model_shader.vs" />
+    <None Include="planet.fs" />
+    <None Include="planet.vs" />
     <None Include="skybox.fs" />
     <None Include="skybox.vs" />
   </ItemGroup>

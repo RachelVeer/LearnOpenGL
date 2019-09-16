@@ -34,6 +34,10 @@
     <None Include="model_shader.fs" />
     <None Include="cubemaps.fs" />
     <None Include="cubemaps.vs" />
+    <None Include="asteroids.vs" />
+    <None Include="asteroids.fs" />
+    <None Include="planet.vs" />
+    <None Include="planet.fs" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shader.h">
