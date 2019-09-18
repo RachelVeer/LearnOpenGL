@@ -166,7 +166,7 @@ int main()
 		glActiveTexture(GL_TEXTURE0);
 		glBindTexture(GL_TEXTURE_2D, woodTexture);
 		// set lighting uniforms
-		for (unsigned int i = 0; i < lightPositions.size(); i++)
+		for (unsigned int i = 0; i < lightPositions.size(); ++i)
 		{
 			shader.setVec3("lights[" + std::to_string(i) + "].Position", lightPositions[i]);
 			shader.setVec3("lights[" + std::to_string(i) + "].Color", lightColors[i]);
