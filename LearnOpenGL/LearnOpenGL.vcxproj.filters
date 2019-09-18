@@ -38,6 +38,10 @@
     <None Include="asteroids.fs" />
     <None Include="planet.vs" />
     <None Include="planet.fs" />
+    <None Include="lighting.vs" />
+    <None Include="lighting.fs" />
+    <None Include="hdr.vs" />
+    <None Include="hdr.fs" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shader.h">

@@ -151,8 +151,12 @@
     <None Include="asteroids.vs" />
     <None Include="cubemaps.fs" />
     <None Include="cubemaps.vs" />
+    <None Include="hdr.fs" />
+    <None Include="hdr.vs" />
     <None Include="lamp.fs" />
     <None Include="lamp.vs" />
+    <None Include="lighting.fs" />
+    <None Include="lighting.vs" />
     <None Include="model_shader.fs" />
     <None Include="model_shader.vs" />
     <None Include="planet.fs" />
