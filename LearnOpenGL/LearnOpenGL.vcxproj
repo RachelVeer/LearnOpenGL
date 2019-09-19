@@ -163,6 +163,12 @@
     <None Include="planet.vs" />
     <None Include="skybox.fs" />
     <None Include="skybox.vs" />
+    <None Include="ssao.fs" />
+    <None Include="ssao.vs" />
+    <None Include="ssao_blur.fs" />
+    <None Include="ssao_geometry.fs" />
+    <None Include="ssao_geometry.vs" />
+    <None Include="ssao_lighting.fs" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="camera.h" />
