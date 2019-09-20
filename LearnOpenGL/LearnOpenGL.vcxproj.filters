@@ -95,6 +95,12 @@
     <None Include="ssao_geometry.vs">
       <Filter>Shaders</Filter>
     </None>
+    <None Include="pbr.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="pbr.fs">
+      <Filter>Shaders</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shader.h">

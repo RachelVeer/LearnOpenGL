@@ -159,6 +159,8 @@
     <None Include="lighting.vs" />
     <None Include="model_shader.fs" />
     <None Include="model_shader.vs" />
+    <None Include="pbr.fs" />
+    <None Include="pbr.vs" />
     <None Include="planet.fs" />
     <None Include="planet.vs" />
     <None Include="skybox.fs" />
