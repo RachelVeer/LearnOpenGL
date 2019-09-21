@@ -147,6 +147,8 @@
     <ClCompile Include="stb_image.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="lamp.fs" />
+    <None Include="lamp.vs" />
     <None Include="shader.fs" />
     <None Include="shader.vs" />
   </ItemGroup>
