@@ -101,6 +101,30 @@
     <None Include="pbr.fs">
       <Filter>Shaders</Filter>
     </None>
+    <None Include="cubemap.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="equirectangular_to_cubemap.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="irradiance_convolution.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="brdf.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="brdf.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="background.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="background.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="prefilter.fs">
+      <Filter>Shaders</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shader.h">
