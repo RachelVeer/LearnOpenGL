@@ -24,7 +24,16 @@
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="stb_image.cpp">
+    <ClCompile Include="shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -130,16 +139,13 @@
     <ClInclude Include="shader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="camera.h">
+    <ClInclude Include="texture.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="mesh.h">
+    <ClInclude Include="resource_manager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="model.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="filesystem.h">
+    <ClInclude Include="game.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
