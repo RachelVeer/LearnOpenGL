@@ -28,8 +28,16 @@
   <ItemGroup>
     <None Include="lamp.vs" />
     <None Include="lamp.fs" />
+    <None Include="skybox.vs" />
+    <None Include="skybox.fs" />
     <None Include="model_shader.vs" />
     <None Include="model_shader.fs" />
+    <None Include="cubemaps.fs" />
+    <None Include="cubemaps.vs" />
+    <None Include="asteroids.vs" />
+    <None Include="asteroids.fs" />
+    <None Include="planet.vs" />
+    <None Include="planet.fs" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shader.h">
@@ -42,6 +50,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
