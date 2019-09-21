@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{0d357d97-be51-4c01-90bf-528234a1fe00}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c">
@@ -26,18 +29,72 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="lamp.vs" />
-    <None Include="lamp.fs" />
-    <None Include="skybox.vs" />
-    <None Include="skybox.fs" />
-    <None Include="model_shader.vs" />
-    <None Include="model_shader.fs" />
-    <None Include="cubemaps.fs" />
-    <None Include="cubemaps.vs" />
-    <None Include="asteroids.vs" />
-    <None Include="asteroids.fs" />
-    <None Include="planet.vs" />
-    <None Include="planet.fs" />
+    <None Include="ssao_lighting.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="asteroids.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="asteroids.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="cubemaps.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="cubemaps.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="hdr.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="hdr.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="lamp.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="lamp.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="lighting.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="lighting.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="model_shader.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="model_shader.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="planet.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="planet.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="skybox.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="skybox.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="ssao.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="ssao.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="ssao_blur.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="ssao_geometry.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="ssao_geometry.vs">
+      <Filter>Shaders</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shader.h">
